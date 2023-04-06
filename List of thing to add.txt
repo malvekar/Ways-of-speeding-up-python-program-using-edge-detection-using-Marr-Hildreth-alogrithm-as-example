@@ -5,3 +5,10 @@
 4) how many files to put in main folder, there are two types of main files
     simple code and live detection 
 5) statistics 
+
+
+
+Problems
+the zero crossing is wrong 
+the code is not neat
+Need to add lot of comments
