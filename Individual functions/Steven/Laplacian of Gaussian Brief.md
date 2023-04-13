@@ -51,10 +51,10 @@ Email - steventambi31@gmail.com
 import numpy as np
 
 def log_mask(size, sigma , const):
-    mask = np.ones((size, size))
-    # mask = [0]*size
-    # for i in range(size):
-    #     mask[i]= [0]*size
+  mask = np.ones((size, size))
+  # mask = [0]*size
+  # for i in range(size):
+  # mask[i]= [0]*size
 
     for i in range(size):
         for j in range(size):
