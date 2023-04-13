@@ -32,4 +32,6 @@ $$LoG(x,y) = \frac{1}{2\pi \sigma^6} [(x^2+y^2)-2\sigma^2]e^-(\frac{x^2+y^2}{2\s
 
 #### Plots
 ---
-[marr_hildreth.png](https://github.com/malvekar/Ways-of-speeding-up-python-program-using-edge-detection-using-Marr-Hildreth-alogrithm-as-example/blob/main/Individual%20functions/Steven/marr_hildreth.png)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/malvekar/Ways-of-speeding-up-python-program-using-edge-detection-using-Marr-Hildreth-alogrithm-as-example/blob/main/Individual%20functions/Steven/marr_hildreth.png">
+</p>
