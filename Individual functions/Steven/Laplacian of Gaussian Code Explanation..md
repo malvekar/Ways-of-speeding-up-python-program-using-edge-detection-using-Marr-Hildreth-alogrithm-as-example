@@ -1,10 +1,10 @@
-Work Assigned:
+#### Work Assigned:
 * Creating a function to implement Laplacian of Gaussian also called, Marr-Hildreth Algorithm for Edge Detection.
 
 
 ---
 ---
-## **Theory**
+### **Theory**
 ---
 The Marr-Hildreth or Laplacian of Gaussian (LOG) filter is a discrete Laplacian filter with
 particular applications in edge detection. The LOG filter proposed by David Marr and Ellen
