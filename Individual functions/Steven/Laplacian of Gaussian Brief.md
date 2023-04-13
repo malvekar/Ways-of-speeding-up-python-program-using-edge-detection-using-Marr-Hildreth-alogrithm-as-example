@@ -40,7 +40,12 @@ $$LoG(x,y) = \frac{1}{2\pi \sigma^6} [(x^2+y^2)-2\sigma^2]e^-(\frac{x^2+y^2}{2\s
 
 ---
 
-<p class="callout info">Code</p>
+<details>
+<summary>Click to expand</summary>
+
+whatever
+
+</details>
 
 #### Parameters
 
