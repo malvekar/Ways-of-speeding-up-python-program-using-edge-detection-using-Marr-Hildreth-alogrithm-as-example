@@ -2,6 +2,8 @@ Work Assigned:
 * Creating a function to implement Laplacian of Gaussian also called, Marr-Hildreth Algorithm for Edge Detection.
 
 
+---
+---
 ## **Theory**
 ---
 The Marr-Hildreth or Laplacian of Gaussian (LOG) filter is a discrete Laplacian filter with
@@ -36,4 +38,23 @@ $$LoG(x,y) = \frac{1}{2\pi \sigma^6} [(x^2+y^2)-2\sigma^2]e^-(\frac{x^2+y^2}{2\s
   <img width="410" height="332" src="https://github.com/malvekar/Ways-of-speeding-up-python-program-using-edge-detection-using-Marr-Hildreth-alogrithm-as-example/blob/main/Individual%20functions/Steven/marr_hildreth.png">
 </p>
 
+---
+#### Parameters
+---
+- Size: Specifies the size of the mask to be implemented.
+- Sigma: Specifies the standard deviation of the Gaussian.
+- Const: This is a constant which is multiplied by the LOG.
+
+---
+
+#### Working
+---
+The function takes in the parameters specified by the user, creates a mask of the specified
+size. Each position in the matrix is iterated and appended with the Laplacian of the Gaussian
+of the specified sigma by the user. To discretise the mask, it is multiplied with a constant
+and then rounded off to the closest integer.
+
+The sum of the elements in the mask is calculated and displayed.
+
+---
 ---
