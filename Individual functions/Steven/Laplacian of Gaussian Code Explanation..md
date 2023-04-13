@@ -41,6 +41,7 @@ $$LoG(x,y) = \frac{1}{2\pi \sigma^6} [(x^2+y^2)-2\sigma^2]e^-(\frac{x^2+y^2}{2\s
 ---
 
 #### Code:
+%%
 import numpy as np
 
 def log_mask(size, sigma , const):
@@ -82,6 +83,7 @@ def log_mask(size, sigma , const):
     return mask, sum
 
 #To view a generated mask, use a print statement and call the log_mask function with the desired value of size and sigma.
+%%
 #### Parameters
 
 - Size: Specifies the size of the mask to be implemented.
