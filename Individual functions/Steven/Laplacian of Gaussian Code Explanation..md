@@ -55,3 +55,6 @@ of the specified sigma by the user. To discretise the mask, it is multiplied wit
 and then rounded off to the closest integer.
 
 The sum of the elements in the mask is calculated and displayed.
+
+---
+---
